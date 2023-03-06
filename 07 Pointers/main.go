@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Welcome to a class on pointers")
+	var one *int
+	fmt.Println(one)
+	myNumber := 23
+	var ptr2 = &myNumber
+	fmt.Println("Value of actual pointer is ", ptr2)
+	fmt.Println("Value of actual pointer is ", *ptr2)
+	*ptr2 = *ptr2 + 2
+	fmt.Println(myNumber)
+
+}
