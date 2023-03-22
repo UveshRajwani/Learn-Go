@@ -36,8 +36,8 @@ type singleTime struct {
 }
 
 func main() {
-	//fmt.Println("Welcome to json with golang")
-	//EncodeJson()
+	fmt.Println("Welcome to json with golang")
+	EncodeJson()
 	DecodeJson()
 }
 func EncodeJson() {
